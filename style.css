@@ -3,7 +3,7 @@
 
 .back-to-top{position:fixed;right:25px;bottom:94px;width:45px;height:45px;display:grid;place-items:center;background:var(--paper);color:var(--ink);border:1px solid #30303b;border-radius:50%;box-shadow:0 4px 16px #0002;z-index:10;font-size:24px}.back-to-top:hover{background:var(--accent);color:white;border-color:var(--accent)}@media(max-width:760px){.back-to-top{right:22px;bottom:82px;width:44px;height:44px}}
 
-.brand-logo{position:relative;display:block;width:84px;height:56px;overflow:hidden;flex-shrink:0}.brand-logo img{position:absolute;width:144px;height:144px;max-width:none;left:-30px;top:-43.5px;object-fit:contain}@media(max-width:760px){.brand-logo{width:72px;height:48px}.brand-logo img{width:124.5px;height:124.5px;left:-26.25px;top:-37.5px}}
+.brand-logo{display:block;width:250px;aspect-ratio:915/273;flex-shrink:0}.brand-logo img{display:block;width:100%;height:100%;object-fit:contain}@media(max-width:760px){.brand-logo{width:150px}}
 
 /* Custom page scrollbar, retaining native scrolling and keyboard controls. */
 html{scrollbar-width:thin;scrollbar-color:var(--accent) #13131d}
@@ -21,7 +21,7 @@ html{scrollbar-width:thin;scrollbar-color:var(--accent) #13131d}
 .light{background:#06060d;color:#ffffff}
 .light:hover{background:#242431}
 .whatsapp:hover,.back-to-top:hover{color:#06060d}
-.brand-logo{background:#ffffff;border-radius:4px}
+
 
 .book-cover{padding:0;border-left:0;aspect-ratio:auto}
 .book-cover img{display:block;width:100%;height:auto;object-fit:contain}
